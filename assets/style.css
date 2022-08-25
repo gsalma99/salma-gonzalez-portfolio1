@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 :root {
-    --dark-purple: #1F1A38;
-    --lavander: #1F1A38;
-    --pink: #DD99BB;
-    --light-pink: #EBD2BE;
-    --tan: #FFE8D4;
+    --dark-black: #121113;
+    --dark-green: #222725;
+    --green: #899878;
+    --light-green: #E4E6C3;
+    --cream-white: #F7F7F2;
 }
 
 
@@ -19,10 +19,37 @@ body {
     
 }
 .header {
-    background-color: var(--light-pink);
+    background-color: var(--green);
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+
+}
+.header li a {
+    color: var(--dark-black);
+    float: right;
+    position: relative;
+}
+p {
+    text-align: center;
+
+}
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cream-white);
+}
+#projects {
+    align-items: right;
+    background-color:var(--cream-white) ;
+}
+form {
+    display: center;
+    justify-content: space-around;
+}
+.section {
+    align-items: center;
+
 }
