@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+    --dark-purple: #1F1A38;
+    --lavander: #1F1A38;
+    --pink: #DD99BB;
+    --light-pink: #EBD2BE;
+    --tan: #FFE8D4;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    
+}
+.header {
+    background-color: var(--light-pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
