@@ -10,26 +10,22 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 3px;
     font-family: 'Rubik', sans-serif;
 }
 
-body {
-    
-}
 .header {
     background-color: var(--green);
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 17vh;
-
 }
+
 .header li a {
     color: var(--dark-black);
-    float: right;
-    position: relative;
 }
 p {
     text-align: center;
@@ -40,16 +36,62 @@ p {
     flex-direction: column;
     align-items: center;
     background-color: var(--cream-white);
+    text-align: center;
 }
 #projects {
-    align-items: right;
-    background-color:var(--cream-white) ;
+    background-color:var(--cream-white);
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 10px;
+
+
+}
+#contact {
+    background-color: var(--green);
+    width: auto;
+    margin-left: 15px ;
+    text-align: center;
+    
+
 }
 form {
-    display: center;
-    justify-content: space-around;
+    display: inline;
+    justify-content: center;
 }
 .section {
     align-items: center;
+}
 
+ul {
+    justify-content: space-between;
+    align-items: right;
+}
+ 
+.type-contact {
+    justify-content: center;
+}
+
+.image2 {
+    height: 150px;
+    width: auto;
+}
+
+.image1 {
+    height: 200px;
+    width: auto;
+}
+.about-me {
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+
+}
+@media screen and (min-width: 600px){
+    .header {
+        border-color: green;
+        flex-direction: row;
+    }
 }
