@@ -26,3 +26,7 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
 ## Notes 
 
 Worked on Task alongside with Justin Berg. 
+
+<img width="1440" alt="Screen Shot 2022-08-26 at 12 46 58 AM" src="https://user-images.githubusercontent.com/110579963/186831214-de38722e-e340-430d-affd-5ca64a0463f5.png">
+
+
