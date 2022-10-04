@@ -21,6 +21,8 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport -->
 
 
+
+
 ## Notes 
 
 Worked on Task alongside with Justin Berg. 
